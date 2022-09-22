@@ -91,8 +91,20 @@
     top: 50px; }
   footer {
     position: relative;
-    width: 50%; } }
+    width: 50%; } 
+  
+  .carru{
+      width: 100%;
+      height: 400px;
+    }
+  
+  
+  }
 
+
+.carru{
+  width: 100%;
+}
 .conta {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -102,7 +114,3 @@
   display: flex;
   justify-content: center; }
 
-  .carru{
-    width: 100%;
-    height: 400px;
-  }
