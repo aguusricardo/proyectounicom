@@ -75,6 +75,66 @@
   }
 }
 
+/* formulario de registro */
+
+.formsec{
+  position: relative;
+  height: 800PX;
+}
+
+.formregistrar{
+  background-color: WHITE;
+  width: 400px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 8px;
+  border-style: inset;
+  border-color: black;
+  
+}
+
+.formregistrar h3{
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.formregistrar p{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.controls{
+  width: 100%;
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid rgb(20, 20, 158);
+  font-size: 18px;
+  color: black;
+}
+
+.botons{
+  padding: 12px;
+  font-size: medium;
+  width: 190px;
+  cursor: pointer;
+  background: #799be6;
+  color: white;
+  transition: .5s ease;
+  border-radius: 10px;
+}
+
+.botons:hover{
+  background: transparent;
+  border: 2px solid #799be6;
+  box-shadow: 0 0 10px 0 #799be6 inset,
+  0 0 10px 4px #799be6;
+  border-radius: 10px;
+}
+
+
 
 
 @media screen and (max-width: 500px) {
