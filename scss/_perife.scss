@@ -1,0 +1,33 @@
+.backg{
+    background: rgb(148,187,233);
+    background: linear-gradient(45deg, rgba(148,187,233,1) 14%, rgba(227,227,227,1) 34%, rgba(148,187,233,1) 59%, rgba(71,145,232,1) 85%);
+}
+
+.g733{
+    width: 600px;
+}
+
+.g733txt{
+    font-family: 'VCR OSD Mono', sans-serif;
+    font-size: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    top: 150px;
+}
+
+.conta{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+}
+
+.conta-img{
+    display: flex;
+    justify-content: center;
+}

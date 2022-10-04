@@ -1,7 +1,10 @@
-.logo{
-    position: relative;
-    width: 150px;
-}
+@import "index";
+@import "perife";
+@import "compus";
+@import "notebooks";
+@import "esport";
+@import "mediaq";
+@import "variables";
 
 .foot{
     z-index: 100;
@@ -29,22 +32,9 @@
     height: 500px;
 }
 
-.g733{
-    width: 600px;
-}
 
-.g733txt{
-    font-family: 'VCR OSD Mono', sans-serif;
-    font-size: 55px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    align-content: center;
-    position: relative;
-    top: 150px;
-}
+
+
 
 /* animacion redes sociales  para footer general*/
 
@@ -82,39 +72,3 @@
     }
 }
 
-
-
-@media screen and (max-width: 450px){
-    .g733txt{
-        font-size: 20px;
-        position: relative;
-        top: 100px;
-    }
-
-    .g733{
-        width: 140%;
-        display: flex;
-        flex-wrap: wrap;
-        padding: 50px;
-        position: relative;
-        top: 50px;
-    }
-
-    footer{
-        position: relative;
-        width: 50%;
-    }
-
-}
-
-.conta{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    
-}
-
-.conta-img{
-    display: flex;
-    justify-content: center;
-}
